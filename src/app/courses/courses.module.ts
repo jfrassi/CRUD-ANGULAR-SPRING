@@ -5,6 +5,7 @@ import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 /* ANGULAR MATERIAL */
 import { AppMaterialModule } from '../shared/app-material/app-material.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -17,6 +18,7 @@ import { AppMaterialModule } from '../shared/app-material/app-material.module';
     CommonModule,
     CoursesRoutingModule,
     AppMaterialModule,
+    SharedModule
   ]
 })
 export class CoursesModule { }
